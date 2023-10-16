@@ -36,7 +36,7 @@ function App() {
         <div className={`loader z-10 ${isLoading ? '' : 'hidden'}`} role="alert" aria-live="assertive">
             <p className="sr-only loader__spinner">Loading...</p>
           </div>
-        <div className={`transition-all ${isLoading ? 'invisible' : ''}`}>
+        <div className={` ${isLoading ? 'invisible' : ''}`}>
           <h2 className="text-[.8rem] text-neon-green mb-[24px] tracking-[0.3rem]">
             ADVICE #{adviceId}
           </h2>
